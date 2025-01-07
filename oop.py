@@ -35,6 +35,17 @@ class Spec_car(Car):
                                             
 BMW = Spec_car("BMW", "325i", "Gas", 2003)
 
+
+class house():
+    def __init__(self, Doors, Windows, Rooms):
+        self.windows = Windows
+        self.doors= Doors
+        self.rooms = Rooms
+
+House_1 = house(3,10,6)
+
+print(house.rooms)
+
 print(BMW.year)  # works as intended.
 print(BMW.make)  #OOp operations.
 print(BMW.model)
